@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F572CC591F41DE1100FC92DC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F572CC581F41DE1100FC92DC /* SettingsViewController.swift */; };
 		F5AABC471F3CB12700BBFB21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AABC461F3CB12700BBFB21 /* AppDelegate.swift */; };
 		F5AABC491F3CB12700BBFB21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AABC481F3CB12700BBFB21 /* ViewController.swift */; };
 		F5AABC4C1F3CB12700BBFB21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5AABC4A1F3CB12700BBFB21 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F572CC581F41DE1100FC92DC /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		F5AABC431F3CB12700BBFB21 /* tipCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5AABC461F3CB12700BBFB21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5AABC481F3CB12700BBFB21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				F5AABC461F3CB12700BBFB21 /* AppDelegate.swift */,
 				F5AABC481F3CB12700BBFB21 /* ViewController.swift */,
 				F5AABC4A1F3CB12700BBFB21 /* Main.storyboard */,
+				F572CC581F41DE1100FC92DC /* SettingsViewController.swift */,
 				F5AABC4D1F3CB12700BBFB21 /* Assets.xcassets */,
 				F5AABC4F1F3CB12700BBFB21 /* LaunchScreen.storyboard */,
 				F5AABC521F3CB12700BBFB21 /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				F5AABC491F3CB12700BBFB21 /* ViewController.swift in Sources */,
 				F5AABC471F3CB12700BBFB21 /* AppDelegate.swift in Sources */,
+				F572CC591F41DE1100FC92DC /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = JJWEB8ASA3;
+				DEVELOPMENT_TEAM = X27KQ37BK4;
 				INFOPLIST_FILE = tipCal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.a-g.practice.tipCal";
@@ -433,7 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = JJWEB8ASA3;
+				DEVELOPMENT_TEAM = X27KQ37BK4;
 				INFOPLIST_FILE = tipCal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.a-g.practice.tipCal";
@@ -524,6 +528,7 @@
 				F5AABC6D1F3CB12700BBFB21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5AABC6E1F3CB12700BBFB21 /* Build configuration list for PBXNativeTarget "tipCalTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +537,7 @@
 				F5AABC701F3CB12700BBFB21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5AABC711F3CB12700BBFB21 /* Build configuration list for PBXNativeTarget "tipCalUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +546,7 @@
 				F5AABC731F3CB12700BBFB21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
